@@ -60,14 +60,24 @@ Grad-CAM
 📊 Technologies Used
 
 Python
+
 PyTorch
+
 Torchvision
+
 OpenCV
+
 NumPy
+
 Pillow
+
 Matplotlib
+
 Streamlit
+
 Grad-CAM
+
 Git
+
 GitHub
 
