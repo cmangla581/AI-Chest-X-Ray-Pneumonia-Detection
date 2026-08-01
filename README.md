@@ -15,45 +15,69 @@ AI-Chest-XRay-Disease-Detection/
 │
 
 ├── assets/
+
 │   ├── css/
+
 │   └── images/
 │
 
 ├── models/
+
 │   └── best_model.pth
 │
 
 ├── outputs/
+
 │   └── Grad-CAM Images
 │
 
 ├── src/
-│   ├── dataset.py
+│   
+├── dataset.py
+
 │   ├── model.py
+
 │   ├── train.py
+
 │   ├── predict.py
+
 │   ├── gradcam.py
+
 │   ├── evaluate.py
+
 │   ├── test.py
+
 │   └── utils.py
 │
 
 ├── streamlit_app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore 
 
 
 🧠 Deep Learning Model
 
 Architecture
+
 ResNet18
+
 Transfer Learning
+
 PyTorch Framework
+
 Classes
+
 NORMAL
+
+
 PNEUMONIA
+
 Explainability
+
 Grad-CAM 
 
 
