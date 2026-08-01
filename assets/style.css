@@ -1,0 +1,288 @@
+
+/* =========================================================
+   PROFESSIONAL MEDICAL AI DASHBOARD
+========================================================= */
+
+/* ---------------- Background ---------------- */
+
+.stApp{
+
+    background: linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#1b263b);
+
+    background-size:400% 400%;
+
+    animation:gradientBG 15s ease infinite;
+
+}
+
+/* Background Animation */
+
+@keyframes gradientBG{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
+
+/* ---------------- Scrollbar ---------------- */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#00BCD4;
+
+border-radius:10px;
+
+}
+
+/* ---------------- Main Title ---------------- */
+
+.main-title{
+
+font-size:52px;
+
+font-weight:bold;
+
+text-align:center;
+
+color:white;
+
+text-shadow:0px 0px 18px cyan;
+
+margin-bottom:5px;
+
+}
+
+/* ---------------- Subtitle ---------------- */
+
+.subtitle{
+
+font-size:22px;
+
+text-align:center;
+
+color:#DDDDDD;
+
+margin-bottom:25px;
+
+}
+
+/* ---------------- Cards ---------------- */
+
+.card{
+
+background:white;
+
+padding:20px;
+
+border-radius:18px;
+
+box-shadow:0px 6px 18px rgba(0,0,0,0.25);
+
+margin-bottom:20px;
+
+}
+
+/* ---------------- Prediction ---------------- */
+
+.prediction{
+
+font-size:34px;
+
+font-weight:bold;
+
+color:#0077b6;
+
+text-align:center;
+
+}
+
+/* ---------------- Confidence ---------------- */
+
+.confidence{
+
+font-size:34px;
+
+font-weight:bold;
+
+color:#16a34a;
+
+text-align:center;
+
+}
+
+/* ---------------- Buttons ---------------- */
+
+.stButton > button{
+
+width:100%;
+
+background:#00BCD4;
+
+color:white;
+
+font-size:20px;
+
+font-weight:bold;
+
+border-radius:12px;
+
+border:none;
+
+padding:14px;
+
+transition:0.3s;
+
+}
+
+.stButton > button:hover{
+
+background:#0097A7;
+
+transform:scale(1.03);
+
+}
+
+/* ---------------- File Uploader ---------------- */
+
+[data-testid="stFileUploader"]{
+
+background:white;
+
+border-radius:15px;
+
+padding:15px;
+
+box-shadow:0px 4px 12px rgba(0,0,0,0.25);
+
+}
+
+/* ---------------- Success ---------------- */
+
+[data-testid="stSuccess"]{
+
+background:#d4edda;
+
+color:#155724;
+
+border-radius:12px;
+
+}
+
+/* ---------------- Info ---------------- */
+
+[data-testid="stInfo"]{
+
+background:white;
+
+color:black;
+
+border-radius:12px;
+
+}
+
+/* ---------------- Metric Cards ---------------- */
+
+[data-testid="stMetric"]{
+
+background:white;
+
+padding:20px;
+
+border-radius:15px;
+
+box-shadow:0px 4px 15px rgba(0,0,0,0.2);
+
+border:2px solid #00BCD4;
+
+}
+
+[data-testid="stMetricLabel"]{
+
+color:#003366 !important;
+
+font-weight:bold;
+
+font-size:18px !important;
+
+}
+
+[data-testid="stMetricValue"]{
+
+color:#000000 !important;
+
+font-size:34px !important;
+
+font-weight:bold !important;
+
+}
+
+/* ---------------- Sidebar ---------------- */
+
+section[data-testid="stSidebar"]{
+
+background:#112240;
+
+}
+
+section[data-testid="stSidebar"] *{
+
+color:white;
+
+}
+
+/* ---------------- Footer ---------------- */
+
+.footer{
+
+text-align:center;
+
+font-size:15px;
+
+color:white;
+
+margin-top:40px;
+
+padding:15px;
+
+}
+
+/* ---------------- Divider ---------------- */
+
+hr{
+
+border:2px solid #00BCD4;
+
+}
+
+/* ---------------- Headers ---------------- */
+
+h2,h3{
+
+color:white !important;
+
+}
+
+/* ---------------- Images ---------------- */
+
+img{
+
+border-radius:15px;
+
+box-shadow:0px 4px 18px rgba(0,0,0,0.35);
+
+}
