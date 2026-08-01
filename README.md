@@ -10,18 +10,23 @@ This project is an AI-powered Chest X-Ray Disease Detection System developed usi
 The project also integrates Grad-CAM (Gradient-weighted Class Activation Mapping) to provide visual explanations of the model's predictions, making the AI system more transparent and interpretable. 
 
 📂 Project Structure
+
 AI-Chest-XRay-Disease-Detection/
 │
+
 ├── assets/
 │   ├── css/
 │   └── images/
 │
+
 ├── models/
 │   └── best_model.pth
 │
+
 ├── outputs/
 │   └── Grad-CAM Images
 │
+
 ├── src/
 │   ├── dataset.py
 │   ├── model.py
@@ -32,12 +37,15 @@ AI-Chest-XRay-Disease-Detection/
 │   ├── test.py
 │   └── utils.py
 │
+
 ├── streamlit_app.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore 
 
+
 🧠 Deep Learning Model
+
 Architecture
 ResNet18
 Transfer Learning
@@ -48,7 +56,9 @@ PNEUMONIA
 Explainability
 Grad-CAM 
 
+
 📊 Technologies Used
+
 Python
 PyTorch
 Torchvision
